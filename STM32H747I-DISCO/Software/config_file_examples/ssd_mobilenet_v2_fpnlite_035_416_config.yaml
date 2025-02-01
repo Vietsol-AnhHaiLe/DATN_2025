@@ -1,0 +1,88 @@
+general:
+  project_name: Welding
+  model_type: ssd_mobilenet_v2_fpnlite
+  model_path: 
+  logs_dir: logs
+  saved_models_dir: saved_models
+  gpu_memory_limit: 16
+  global_seed: 127
+operation_mode: chain_tqeb
+
+dataset:
+  name: Welding
+  class_names:  ['Bad Welding','Good Welding']
+  training_path: H:\stm32ai-modelzoo-2.1.0\object_detection\datasets\FinalWeld\train
+  validation_path: H:\stm32ai-modelzoo-2.1.0\object_detection\datasets\FinalWeld\valid
+  test_path: H:\stm32ai-modelzoo-2.1.0\object_detection\datasets\FinalWeld\test
+  quantization_path: H:\stm32ai-modelzoo-2.1.0\object_detection\datasets\FinalWeld\valid
+  quantization_split: 0.3
+
+
+preprocessing:
+  rescaling:  {scale : 127.5, offset : -1}
+  resizing:
+    aspect_ratio: fit
+    interpolation: nearest
+  color_mode: rgb
+data_augmentation:
+  rotation: 30
+  shearing: 15
+  translation: 0.1
+  vertical_flip: 0.5
+  horizontal_flip: 0.2
+  gaussian_blur: 3.0
+  linear_contrast: [0.75, 1.5]
+training:
+  model:
+    alpha: 0.35
+    input_shape: (192, 192, 3)
+    pretrained_weights: imagenet
+  dropout: null
+  batch_size: 64
+  epochs: 300
+  optimizer:
+    Adam:
+      learning_rate: 0.001
+  callbacks:
+    ReduceLROnPlateau:
+      monitor: val_loss
+      patience: 20
+    EarlyStopping:
+      monitor: val_loss
+      patience: 40
+postprocessing:
+  confidence_thresh: 0.001
+  NMS_thresh: 0.5
+  IoU_eval_thresh: 0.4
+  plot_metrics: true
+  max_detection_boxes: 10
+quantization:
+  quantizer: TFlite_converter
+  quantization_type: PTQ
+  quantization_input_type: uint8
+  quantization_output_type: float
+  export_dir: quantized_models
+benchmarking:
+  board: STM32H747I-DISCO
+
+tools:
+   stedgeai:
+      version: 9.1.0
+      optimization: balanced
+      on_cloud: False
+      path_to_stedgeai: C:/Users/LeHaiAnh/STM32Cube/Repository/Packs/STMicroelectronics/X-CUBE-AI/9.1.0/Utilities/windows/stedgeai.exe
+   path_to_cubeIDE: C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/stm32cubeide.exe
+
+
+deployment:
+  c_project_path: ../../stm32ai_application_code/object_detection/
+  IDE: GCC
+  verbosity: 1
+  hardware_setup:
+    serie: STM32H7
+    board: STM32H747I-DISCO
+mlflow:
+  uri: ./experiments_outputs/mlruns
+hydra:
+  run:
+    dir: ./experiments_outputs/${now:%Y_%m_%d_%H_%M_%S}

@@ -1,0 +1,14 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1860:17:DMA_CalcBaseAndBitshift	17
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1990:13:DMA_CalcDMAMUXChannelBaseAndMask	4
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:216:19:HAL_DMA_Init	51
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:468:19:HAL_DMA_DeInit	24
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:625:19:HAL_DMA_Start	74
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:681:19:HAL_DMA_Start_IT	103
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:781:19:HAL_DMA_Abort	48
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:897:19:HAL_DMA_Abort_IT	23
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:981:19:HAL_DMA_PollForTransfer	27
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1208:6:HAL_DMA_IRQHandler	105
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1578:19:HAL_DMA_RegisterCallback	10
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1645:19:HAL_DMA_UnRegisterCallback	11
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1736:22:HAL_DMA_GetState	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1747:10:HAL_DMA_GetError	1

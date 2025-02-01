@@ -1,0 +1,4 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/STM32H747I-DISCO/Src/CM7/stm32h7xx_hal_msp.c:29:6:HAL_MspInit	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/STM32H747I-DISCO/Src/CM7/stm32h7xx_hal_msp.c:36:6:HAL_MspDeInit	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/STM32H747I-DISCO/Src/CM7/stm32h7xx_hal_msp.c:45:6:HAL_RNG_MspInit	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/STM32H747I-DISCO/Src/CM7/stm32h7xx_hal_msp.c:65:6:HAL_RNG_MspDeInit	1

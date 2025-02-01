@@ -1,0 +1,12 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:14175:9:network_configure_weights	2
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:13516:9:network_configure_activations	2
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:14936:9:ai_network_get_report	3
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:14983:10:ai_network_get_error	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:14990:10:ai_network_create	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15001:10:ai_network_create_and_init	12
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15036:12:ai_network_inputs_get	2
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15047:12:ai_network_outputs_get	2
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15058:11:ai_network_destroy	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15065:9:ai_network_init	2
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15082:8:ai_network_run	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network.c:15090:8:ai_network_forward	1

@@ -1,0 +1,18 @@
+
+Benchmarks complete for best.pt on datasets.yaml at imgsz=640 (774.14s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)     FPS
+0                 PyTorch       ✅        5.2               0.0477                    9.24  108.23
+1             TorchScript       ✅       10.4               0.0480                    5.74  174.32
+2                    ONNX       ❎       10.1                  NaN                     NaN     NaN
+3                OpenVINO       ❌        0.0                  NaN                     NaN     NaN
+4                TensorRT       ❌        0.0                  NaN                     NaN     NaN
+5                  CoreML       ❌        0.0                  NaN                     NaN     NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN     NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN     NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN     NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN     NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN     NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN     NaN
+12                    MNN       ✅       10.0               0.0480                   24.90   40.17
+13                   NCNN       ✅       10.0               0.0480                   41.91   23.86
+14                    IMX       ❌        0.0                  NaN                     NaN     NaN

@@ -1,0 +1,4 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network_data.c:786:11:ai_network_data_activations_buffer_get	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network_data.c:804:11:ai_network_data_weights_buffer_get	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network_data.c:822:11:ai_network_data_weights_get	1
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Application/Network/Src/network_data.c:835:9:ai_network_data_params_get	2

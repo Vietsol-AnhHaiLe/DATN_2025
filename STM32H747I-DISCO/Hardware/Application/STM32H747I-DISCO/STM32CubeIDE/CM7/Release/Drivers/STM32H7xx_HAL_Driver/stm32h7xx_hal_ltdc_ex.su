@@ -1,0 +1,2 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c:70:19:HAL_LTDCEx_StructInitFromVideoConfig	8	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c:109:19:HAL_LTDCEx_StructInitFromAdaptedCommandConfig	8	static

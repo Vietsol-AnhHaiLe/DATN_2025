@@ -1,0 +1,4 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_resize.c:38:16:STM32Ipl_Crop	96	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_resize.c:121:16:STM32Ipl_Resize	88	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_resize.c:222:16:STM32Ipl_Downscale	64	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Middlewares/ST/STM32_ImageProcessing_Library/Src/stm32ipl_resize.c:359:16:STM32Ipl_Downscale_bilinear	56	static

@@ -1,0 +1,4 @@
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:83:19:HAL_SDEx_ConfigDMAMultiBuffer	4	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:109:19:HAL_SDEx_ReadBlocksDMAMultiBuffer	48	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:195:19:HAL_SDEx_WriteBlocksDMAMultiBuffer	48	static
+H:/stm32ai-modelzoo-2.1.0/stm32ai_application_code/object_detection/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd_ex.c:279:19:HAL_SDEx_ChangeDMABuffer	0	static
